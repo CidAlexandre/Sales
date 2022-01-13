@@ -1,0 +1,5 @@
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp2.1\Sales.csproj.AssemblyReference.cache
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp2.1\Sales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp2.1\Sales.AssemblyInfoInputs.cache
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp2.1\Sales.AssemblyInfo.cs
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp2.1\Sales.csproj.CoreCompileInputs.cache
