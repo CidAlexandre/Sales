@@ -15,5 +15,9 @@ namespace Sales.Data
         }
 
         public DbSet<Sales.Models.Departments> Departments { get; set; }
+        public DbSet<Sales.Models.Seller> Sellers { get; set; }
+        public DbSet<Sales.Models.SalesRecord> SalesRecord { get; set; }
+
+
     }
 }
