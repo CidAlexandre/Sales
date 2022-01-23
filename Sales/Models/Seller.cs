@@ -13,6 +13,7 @@ namespace Sales.Models
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
         public Departments Department { get; set; }
+        public int DepartmentsId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller() { }
