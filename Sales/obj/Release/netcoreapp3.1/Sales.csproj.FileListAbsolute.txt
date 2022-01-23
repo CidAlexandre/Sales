@@ -154,3 +154,4 @@ C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp3.1\Sales.cspr
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp3.1\Sales.dll
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp3.1\Sales.pdb
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp3.1\Sales.genruntimeconfig.cache
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Release\netcoreapp3.1\Razor\Views\Sellers\Index.cshtml.g.cs

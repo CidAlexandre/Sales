@@ -117,7 +117,7 @@ namespace Sales.Data
                 r21, r22, r23, r24, r25, r26, r27, r28, r29, r30
                 );
 
-            _context.SaveChanges();s
+            _context.SaveChanges();
         }
     }
 }
