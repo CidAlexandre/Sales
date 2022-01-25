@@ -5,16 +5,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using Sales.Services;
 using Sales.Models;
+using Sales.Models.ModelsViews;
 
 namespace Sales.Controllers
 {
     public class SellersController : Controller
     {
         private readonly SellersService _sellersService;
-    
-        public SellersController(SellersService sellersService)
+        private readonly DepartmentsService _departmentsService;
+        public SellersController(SellersService sellersService, DepartmentsService departmentsService)
         {
             _sellersService = sellersService;
+            _departmentsService = departmentsService;
         }
         public IActionResult Index()
         {
@@ -24,7 +26,9 @@ namespace Sales.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var departments = _departmentsService.FindAll();
+            var viewModel = new SellerFormViewModel { Departments = departments };
+            return View(viewModel);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

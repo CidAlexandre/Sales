@@ -1,0 +1,23 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using Sales.Data;
+using Sales.Models;
+
+namespace Sales.Services
+{
+    public class DepartmentsService
+    {
+        private readonly SalesContext _context;
+
+        public DepartmentsService(SalesContext context)
+        {
+            _context = context;
+        }
+
+        public List<Departments> FindAll()
+        {
+            var list = _context.Departments.ToList();
+            return list;
+        }
+    }
+}

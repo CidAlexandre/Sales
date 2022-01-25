@@ -154,3 +154,5 @@ C:\Users\Alexandre\source\repos\Sales\Sales\bin\Debug\netcoreapp3.1\MySqlConnect
 C:\Users\Alexandre\source\repos\Sales\Sales\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Alexandre\source\repos\Sales\Sales\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Sales.csproj.AssemblyReference.cache
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Index.cshtml.g.cs
