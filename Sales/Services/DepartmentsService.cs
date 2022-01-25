@@ -16,7 +16,7 @@ namespace Sales.Services
 
         public List<Departments> FindAll()
         {
-            var list = _context.Departments.ToList();
+            var list = _context.Departments.OrderBy(x => x.Id).ToList();
             return list;
         }
     }
