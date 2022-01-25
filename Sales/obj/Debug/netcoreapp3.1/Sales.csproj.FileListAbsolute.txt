@@ -157,3 +157,4 @@ C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Sales.csproj
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Create.cshtml.g.cs
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Index.cshtml.g.cs
 C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\Users\Alexandre\source\repos\Sales\Sales\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Details.cshtml.g.cs
