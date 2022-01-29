@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Sales.Data;
 using Sales.Models;
@@ -16,7 +17,11 @@ namespace Sales.Services
 
         public List<Departments> FindAll()
         {
-            var list = _context.Departments.OrderBy(x => x.Id).ToList();
+            List<Departments> list = _context.Departments.OrderBy(x => x.Id).ToList();
+            foreach(Departments i in list)
+            {
+                Console.WriteLine(i.Name);
+            }
             return list;
         }
     }
