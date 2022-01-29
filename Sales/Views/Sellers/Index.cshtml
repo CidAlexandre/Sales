@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Sales.Models.ModelsViews.SellerFormViewModel>
+﻿@model IEnumerable<Sales.Models.Seller>
 @{
     ViewData["Title"] = "Sellers";
 }
@@ -13,16 +13,17 @@
     <thead>
         <tr class="bg-success">
             <th>
-                @Html.DisplayNameFor(model => model.Seller.Name)
+                @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Seller.Email)
+                @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Seller.BirthDate)
+
+                @Html.DisplayNameFor(model => model.BirthDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Seller.BaseSalary)
+                @Html.DisplayNameFor(model => model.BaseSalary)
             </th>
             <th></th>
         </tr>
@@ -31,28 +32,28 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => iten.Seller.Name)
+                @Html.DisplayFor(modelItem => iten.Name)
             </td>
         
 
             <td>
-                @Html.DisplayFor(modelItem => iten.Seller.Email)
+                @Html.DisplayFor(modelItem => iten.Email)
             </td>
 
             <td>
-                @Html.DisplayFor(modelItem => iten.Seller.BirthDate)
+                @Html.DisplayFor(modelItem => iten.BirthDate)
             </td>
 
             <td>
-                @Html.DisplayFor(modelItem => iten.Seller.BaseSalary)
+                @Html.DisplayFor(modelItem => iten.BaseSalary)
             </td>
 
             <td>
-                <a asp-action="Edit" asp-route-id="@iten.Seller.Id">Edit</a>
+                <a asp-action="Edit" asp-route-id="@iten.Id">Edit</a>
                 |
-                <a asp-action="Details" asp-route-id="@iten.Seller.Id">Details</a>
+                <a asp-action="Details" asp-route-id="@iten.Id">Details</a>
                 |
-                <a asp-action="Delete" asp-route-id="@iten.Seller.Id">Delete</a>
+                <a asp-action="Delete" asp-route-id="@iten.Id">Delete</a>
             </td>
         </tr>
     }
